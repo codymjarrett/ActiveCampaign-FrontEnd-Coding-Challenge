@@ -1,0 +1,24 @@
+.progress-bar {
+    min-height: 1rem;
+    background: $lightGreen;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    position: relative;
+    overflow: hidden;
+    width: $componentWidth;
+    margin: auto;
+    margin-top: 2rem;
+    padding: 0 1rem;
+
+    &:before {
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        background: $darkGreen;
+        transition: .3s;
+        width: 50%;
+        // width: var(--progress) ;
+    }
+}
