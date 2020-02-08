@@ -2,13 +2,14 @@ import React, { useContext, useEffect } from "react"
 import { AppContext } from "../context"
 
 const Donation = () => {
-  const { state, dispatch } = useContext(AppContext)
+  const { state } = useContext(AppContext)
   useEffect(() => {}, [state])
   return (
     <div className="donation">
       {state.progress <= 0 ? (
         <p class="congratulations">
-          Congratulations, You've Met Your Goal! 🎉🎉🎉🎉
+          Congratulations, You've Met Your Goal!{" "}
+          <span role="img" aria-label="party">🎉🎉🎉🎉</span>
         </p>
       ) : (
         <p>

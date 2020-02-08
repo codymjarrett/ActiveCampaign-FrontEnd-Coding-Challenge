@@ -3,7 +3,7 @@ import { AppContext } from "../context"
 import CallToAction from "./CallToAction"
 
 const Card = () => {
-  const { state, dispatch } = useContext(AppContext)
+  const { state } = useContext(AppContext)
 
   return (
     <div className="card">
@@ -21,16 +21,16 @@ const Card = () => {
         </p>
       )}
       {state.responseState === "success" ? (
-        <div class="success-message">
+        <div className="success-message">
           Thank you so much for your contribution of $
           {state.donation.toFixed(2)}!
         </div>
       ) : null}
       {state.responseState === "number-less-than-five" ? (
-        <div class="error-message">Please provide a number greater than 5</div>
+        <div className="error-message">Please provide a number greater than 5</div>
       ) : null}
       {state.responseState === "should-be-number" ? (
-        <div class="error-message">Input should only include numbers</div>
+        <div className="error-message">Input should only include numbers</div>
       ) : null}
 
       <CallToAction />

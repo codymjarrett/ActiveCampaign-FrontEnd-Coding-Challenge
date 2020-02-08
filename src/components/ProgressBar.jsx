@@ -2,7 +2,7 @@ import React, { useContext } from "react"
 import { AppContext } from "../context"
 
 const ProgressBar = () => {
-  const { state, dispatch } = useContext(AppContext)
+  const { state } = useContext(AppContext)
 
   return (
     <div className="progress-bar" aria-hidden="true">
