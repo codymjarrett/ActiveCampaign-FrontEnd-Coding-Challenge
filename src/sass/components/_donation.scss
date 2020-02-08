@@ -3,7 +3,7 @@
     color: $darkBlue;
     width: $componentWidth;
     padding: 1rem;
-    border-radius: 10px;
+    border-radius: .625rem;
     position: relative;
     font-size: 1.2rem;
     margin: auto;
@@ -11,11 +11,11 @@
     &:after {
         content: "";
         position: absolute;
-        border-left: 15px solid transparent;
-        border-right: 15px solid transparent;
-        border-top: 15px solid $lightBlue;
-        bottom: -15px;
-        right: 50px;
+        border-left: .9375rem solid transparent;
+        border-right: .9375rem solid transparent;
+        border-top: .9375rem solid $lightBlue;
+        bottom: -.9375rem;
+        right: 3.125rem;
     }
 
     

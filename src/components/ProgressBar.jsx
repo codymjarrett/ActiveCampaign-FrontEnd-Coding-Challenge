@@ -1,7 +1,6 @@
 import React, { useContext } from "react"
 import { AppContext } from "../context"
 
-
 const ProgressBar = () => {
   const { state, dispatch } = useContext(AppContext)
 

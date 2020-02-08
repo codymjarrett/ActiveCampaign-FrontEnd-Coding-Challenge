@@ -6,8 +6,10 @@ const Donation = () => {
   useEffect(() => {}, [state])
   return (
     <div className="donation">
-      {state.progress  <= 0 ? (
-        <p class="congratulations">Congratulations, You've Met Your Goal! 🎉🎉🎉🎉</p>
+      {state.progress <= 0 ? (
+        <p class="congratulations">
+          Congratulations, You've Met Your Goal! 🎉🎉🎉🎉
+        </p>
       ) : (
         <p>
           <span className="remaining-amount">

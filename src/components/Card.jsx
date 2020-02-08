@@ -21,7 +21,10 @@ const Card = () => {
         </p>
       )}
       {state.responseState === "success" ? (
-        <div class="success-message">Thank you so much for your contribution of ${state.donation.toFixed(2)}!</div>
+        <div class="success-message">
+          Thank you so much for your contribution of $
+          {state.donation.toFixed(2)}!
+        </div>
       ) : null}
       {state.responseState === "number-less-than-five" ? (
         <div class="error-message">Please provide a number greater than 5</div>

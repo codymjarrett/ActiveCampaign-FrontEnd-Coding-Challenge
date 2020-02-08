@@ -1,8 +1,8 @@
 .progress-bar {
     min-height: 1rem;
     background: $lightGreen;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+    border-top-left-radius: .625rem;
+    border-top-right-radius: .625rem;
     position: relative;
     overflow: hidden;
     width: $componentWidth;
