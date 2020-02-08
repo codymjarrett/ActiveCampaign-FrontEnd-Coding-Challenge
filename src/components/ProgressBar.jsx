@@ -1,10 +1,18 @@
-import React from "react"
+import React, { useContext } from "react"
+import { AppContext } from "../context"
 
-// style="--progress: 100%;"
-const ProgressBar = () => (
-  <div className="progress-bar"  aria-hidden="true">
-    
-  </div>
-)
+
+const ProgressBar = () => {
+  const { state, dispatch } = useContext(AppContext)
+
+  return (
+    <div className="progress-bar" aria-hidden="true">
+      <div
+        className="progress-bar__progress"
+        style={{ width: `${state.percentageReached}%` }}
+      ></div>
+    </div>
+  )
+}
 
 export default ProgressBar

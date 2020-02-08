@@ -10,15 +10,12 @@
     margin-top: 2rem;
     padding: 0 1rem;
 
-    &:before {
-        content: "";
+    &__progress {
         position: absolute;
         left: 0;
         top: 0;
         bottom: 0;
         background: $darkGreen;
         transition: .3s;
-        width: 50%;
-        // width: var(--progress) ;
     }
 }

@@ -6,3 +6,17 @@
 .remaining-amount {
     font-weight: bold;
 }
+
+.error-message {
+    padding: 0 2rem;
+    margin-top: 2rem;
+    color: red;
+    text-align: center;
+}
+.success-message {
+    padding: 0 2rem;
+    margin-top: 2rem;
+    color: $darkBlue;
+    font-weight: bold;
+    text-align: center;
+}

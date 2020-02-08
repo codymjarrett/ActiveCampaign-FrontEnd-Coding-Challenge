@@ -1,5 +1,7 @@
 .call-to-action {
+    margin-top: 1rem;
     padding: 2rem;
+    padding-top: 0;
 
     &__wrapper {
         display: flex;
@@ -7,14 +9,9 @@
         border: 1px solid #D3D3D3;
         border-right: none;
 
-        &.error {
-            border: 3px solid red
-        }
-
         .donation-input__wrapper {
             position: relative;
             flex: 3;
-
 
             &:before {
                 content: '$';
@@ -28,15 +25,12 @@
             }
         }
 
-
-
         .donation-input {
             border: none;
             border-radius: 10px;
             font-size: 1.8rem;
             padding-left: 2.3rem;
             height: 3rem;
-
 
             &:focus {
                 outline: none;
@@ -59,13 +53,6 @@
             &:hover {
                 background-color: $darkBlue;
             }
-
-            &.disabled {
-                background-color: grey;
-                pointer-events: auto ! important;
-                cursor: not-allowed ! important;
-            }
         }
     }
-
 }
