@@ -2,11 +2,11 @@
     opacity: 0;
     width: 0;
     height: 0;
-    border-left: 45px solid transparent;
-    border-right: 45px solid transparent;
-    border-bottom: 45px solid #c2c5cc;
+    border-left: 2.8125rem solid transparent;
+    border-right: 2.8125rem  solid transparent;
+    border-bottom: 2.8125rem  solid #c2c5cc;
     position: absolute;
-    top: 10px;
+    top: .625rem;
     font-size: .5rem;
     z-index: 1000;
     color: black;
@@ -18,13 +18,8 @@
 
     &__detail {
         font-size: .875rem;
-        margin-top: 20px;
-        margin-left: -14px;
+        margin-top: 1.25rem;
+        margin-left: -.875rem;
     }
-
-
-
-
-
 
 }
