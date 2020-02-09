@@ -34,4 +34,8 @@ Dependencies:
 - node-sass
 - typeface-ibm-plex-sans
 - typeface-poppins
+<<<<<<< HEAD
 - gatsby-plugin-sass
+=======
+- gatsby-plugin-sass
+>>>>>>> 7f175ad942fdfd411e0775ca881af35ff375a20f
