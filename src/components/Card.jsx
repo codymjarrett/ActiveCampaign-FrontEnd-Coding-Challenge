@@ -1,12 +1,14 @@
 import React, { useContext } from "react"
 import { AppContext } from "../context"
 import CallToAction from "./CallToAction"
+import ToolTip from "./Tooltip"
 
 const Card = () => {
   const { state } = useContext(AppContext)
 
   return (
     <div className="card">
+    <ToolTip />
       <p className="card__annoucement">
         Only four days left to fund this project
       </p>
