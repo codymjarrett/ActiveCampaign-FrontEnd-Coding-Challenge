@@ -16,5 +16,14 @@ or
 npm start 
 ```
 
+The app will run on localhost:8000 in the browser
+
 You can also view a live demo of this code hosted on netlify: 
-[I'm an inline-style link](https://infallible-goldberg-665bcb.netlify.com/)
+[https://infallible-goldberg-665bcb.netlify.com/](https://infallible-goldberg-665bcb.netlify.com/)
+
+
+Dependencies:
+- node-sass
+- typeface-ibm-plex-sans
+- typeface-poppins
+- gatsby-plugin-sass
