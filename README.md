@@ -6,3 +6,12 @@ In order to run this code you may need to install Gatsby to your machine using t
 npm install -g gatsby-cli
 
 ```
+
+Once you have the CLI installed on your machine, navigate into the project and run the app by using:
+```javascript
+gatsby develop
+or
+yarn start
+or 
+npm start 
+```
