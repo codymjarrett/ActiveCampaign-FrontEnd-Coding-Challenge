@@ -15,3 +15,6 @@ yarn start
 or 
 npm start 
 ```
+
+You can also view a live demo of this code hosted on netlify: 
+[I'm an inline-style link](https://infallible-goldberg-665bcb.netlify.com/)
