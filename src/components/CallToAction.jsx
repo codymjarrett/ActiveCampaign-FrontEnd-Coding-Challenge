@@ -21,12 +21,12 @@ const CallToAction = () => {
       currentTarget: { value },
     } = event
 
-    setInputValue(value)
+    setInputValue(value.trim())
   }
 
   const handleButton = event => {
     if (event.key === "Enter" || event.type === "click") {
-      if (inputValue.search(/[A-Za-z]/) > -1) {
+      if (inputValue.search(/[A-Za-z]/) > -1 || inputValue === "") {
         dispatch({ type: SET_RESPONSE_STATE, payload: "should-be-number" })
       }
       if (Number(inputValue) < 5) {
