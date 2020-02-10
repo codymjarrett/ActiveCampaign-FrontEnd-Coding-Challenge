@@ -7,7 +7,12 @@ const ToolTip = () => {
   return (
     <div
       className="tooltip"
-      style={{ left: `calc(${state.percentageReached}% - 42px)` }}
+      style={{
+        left:
+          `${state.percentageReached}` < 100
+            ? `calc(${state.percentageReached}% - 42px)`
+            : `calc(100% - 42px)`,
+      }}
     >
       <p className="tooltip__detail">{state.percentageReached}%</p>
     </div>
