@@ -7,7 +7,7 @@ const Donation = () => {
   return (
     <div className="donation">
       {state.progress <= 0 ? (
-        <p class="congratulations">
+        <p className="congratulations">
           Congratulations, You've Met Your Goal!{" "}
           <span role="img" aria-label="party">🎉🎉🎉🎉</span>
         </p>

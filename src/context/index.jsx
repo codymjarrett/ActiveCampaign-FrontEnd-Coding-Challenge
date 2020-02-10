@@ -25,7 +25,7 @@ const reducer = (state, action) => {
     case "ADD_DONATION":
       return {
         ...state,
-        percentageReached: (state.totalDonations / state.goal) * 100,
+        percentageReached: Math.floor((state.totalDonations / state.goal) * 100),
         donation: action.payload,
       }
     case "CALCULATE_PERCENTAGE":
