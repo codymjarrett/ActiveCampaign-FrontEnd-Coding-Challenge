@@ -11,7 +11,10 @@
         .donation-input__wrapper {
             position: relative;
             flex: 3;
-            border: 1px solid #D3D3D3;
+            border-top-left-radius: .625rem;
+            border-bottom-left-radius: .625rem;
+            border: 2px solid #D3D3D3;
+            border-right:0;
 
             &:before {
                 content: '$';
